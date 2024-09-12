@@ -1,0 +1,121 @@
+html{
+    font-size: 1vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #9BA2FF;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container{
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+#msg{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    color:rgba(0, 0, 0, 0.767);
+}
+
+#head{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+#btn1{
+    background-color: #9E8576;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    height: 2.3rem;
+    width: 7rem;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 18rem;
+    width: 19rem;
+    margin-top: 3rem;
+}
+.box{
+    height: 6rem ;
+    width: 6rem;
+    background-color: #7A542E;
+    border: 0.000002rem solid black;
+    border-radius: 20%;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+#btn2{
+    background-color: #2A2E45;
+    color: white;
+    height: 2.3rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 4rem;
+}
+#btn1:hover{
+    cursor: pointer;
+    background-color: green;
+}
+#btn2:hover{
+    cursor: pointer;
+    background-color:#192148;
+}
+
+@media (max-width:450px){
+    #head{
+        font-size: 17rem;
+        margin: 8rem;
+    }
+    #btn1{
+        height: 8rem;
+        width: 24rem;
+        font-size: 4rem;
+        border-radius: 4rem;
+    }
+    .boxes{
+        height: 57rem;
+        width: 58rem;
+        margin-top: 10rem;
+    }
+    .box{
+        height: 19rem;
+        width: 19rem;
+        font-size: 8rem;
+    }
+    #btn2{
+        height: 9rem;
+        width: 34rem;
+        font-size: 5rem;
+        margin-top: 15rem;
+        border-radius: 5rem;
+    }
+    #msg{
+        font-size: 12rem;
+    }
+}
+@media (min-width: 460px) and (max-width: 1024px) {
+    html {
+        font-size: 0.8rem;
+    }
+}
